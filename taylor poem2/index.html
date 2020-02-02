@@ -4,56 +4,120 @@
 <head>
 
   <meta charset="utf-8">
-  <title> taylor poem2 </title>
+  <title> taylors poem2 </title>
   <link rel="stylesheet" href="style.css">
 <title> taylor poem 2 </title>
-<link rel="stylesheet" href="https://use.typekit.net/vdu3fcj.css">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-img:hover {
-  animation: shake 0.5s;
-  animation-iteration-count: infinite;
+<style type="text/css">
+.thumbnail {
+    width: 100%;
+    overflow:hidden;
+    display: flex;
 }
+.image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.image img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    transition: all 1s ease;
+    display: flex;
+}
+.image:hover img {
+    -webkit-transform:scale(3); /* Safari and Chrome */
 
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+     transform:scale(3);
 }
-</style>
+ </style>
+ <link rel="stylesheet" href="https://use.typekit.net/vdu3fcj.css">
+
+
 
 </head>
 <body>
 
 <div class="container">
-  <div class="img1">
-  <img src="taylor.jpeg" alt="taylor">
+  <div class="thumbnail">
+ <div class="image">
+  <img src="tnt2.png" alt="Image zoom">
+ </div>
 </div>
-<div class="img2">
-  <img src="angel.png" alt="angel">
-</div>
-</div>
+
+ </div>
+
+
 
 <div class="fixed">
-<div class="line1">
+  <div class="test" contenteditable>
+    coffee shop is so crowded this morning. it instantly filled me with dread.seeing so many people, standing so closely to them i feel overwhelmed, detached from real life.
+    i walk around like a cloud, not really feeling my body as if i am somewhere else really far away from here.
+    at least i am sitting outside now.i can feel the sun, but that’s really all i can feel. extremely dreadful today.
+  </div>
 
-coffee shop is so crowded this morning. it instantly filled me with dread.seeing so many people, standing so closely to them i feel overwhelmed, detached from real life.
-i walk around like a cloud, not really feeling my body as if i am somewhere else really far away from here.
-at least i am sitting outside now.i can feel the sun, but that’s really all i can feel.extremely dreadful today.
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
 
-</div>
+
+      <filter id="squiggly-0">
+        <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="0"/>
+        <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="6" />
+      </filter>
+      <filter id="squiggly-1">
+        <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="1"/>
+  <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+      </filter>
+
+      <filter id="squiggly-2">
+        <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="2"/>
+  <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+      </filter>
+      <filter id="squiggly-3">
+        <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="3"/>
+  <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+      </filter>
+
+      <filter id="squiggly-4">
+        <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="4"/>
+  <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+      </filter>
+    </defs>
+  </svg>
 </div>
 <div class="fixed2">
-taylor nick toben
+  <div class="test" contenteditable>
+  taylor nick toben
+  </div>
+
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+
+
+      <filter id="squiggly-0">
+        <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="0"/>
+        <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="6" />
+      </filter>
+      <filter id="squiggly-1">
+        <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="1"/>
+  <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+      </filter>
+
+      <filter id="squiggly-2">
+        <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="2"/>
+  <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+      </filter>
+      <filter id="squiggly-3">
+        <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="3"/>
+  <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+      </filter>
+
+      <filter id="squiggly-4">
+        <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="4"/>
+  <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+      </filter>
+    </defs>
+  </svg>
+
 </div>
 
 

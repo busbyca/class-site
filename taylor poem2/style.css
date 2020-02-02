@@ -4,52 +4,121 @@
 }
 
 
+
 .container {
   width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-}
-
-.img1 {
-  height: 600px;
-  padding-left: 40px;
   display: flex;
 }
 
-.img2 {
+.thumbnail {
   display: flex;
-  height: 450px;
-  width: 40px;
-  padding-top: 400px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
+
+.image {
+  display: flex;
+  width: 100%;
+}
+
 
 .fixed {
   position: fixed;
-  width: 330px;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  font-size: 12px;
-  color: #7f4132;
-  font-family: 'OCRAStd';
-  right: 100px;
-    background: black;
+  width: 450px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  font-size: 25px;
+  color: white;
+  top: 50px;
+  font-family: louvette-text, serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .fixed2 {
   position: fixed;
   width: 330px;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  font-size: 9px;
-  color: #7f4132;
-  font-family: 'OCRAStd';
-  bottom: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+  color: white;
+  top: 620px;
   left: 20px;
+  font-family: louvette-text, serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700");
+body {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 20px;
+}
+.test {
+  -webkit-animation: squiggly-anim 0.34s linear infinite;
+          animation: squiggly-anim 0.34s linear infinite;
+}
+
+.test {
+  width: 100%;
+  outline: none;
+  line-height: 1;
+}
+.small {
+  font-size: 0.5em;
+}
+.smaller {
+  font-size: 0.4em;
+}
+p {
+  margin: 0;
+}
+@-webkit-keyframes squiggly-anim {
+  0% {
+    -webkit-filter: url("#squiggly-0");
+            filter: url("#squiggly-0");
+  }
+  25% {
+    -webkit-filter: url("#squiggly-1");
+            filter: url("#squiggly-1");
+  }
+  50% {
+    -webkit-filter: url("#squiggly-2");
+            filter: url("#squiggly-2");
+  }
+  75% {
+    -webkit-filter: url("#squiggly-3");
+            filter: url("#squiggly-3");
+  }
+  100% {
+    -webkit-filter: url("#squiggly-4");
+            filter: url("#squiggly-4");
+  }
+}
+@keyframes squiggly-anim {
+  0% {
+    -webkit-filter: url("#squiggly-0");
+            filter: url("#squiggly-0");
+  }
+  25% {
+    -webkit-filter: url("#squiggly-1");
+            filter: url("#squiggly-1");
+  }
+  50% {
+    -webkit-filter: url("#squiggly-2");
+            filter: url("#squiggly-2");
+  }
+  75% {
+    -webkit-filter: url("#squiggly-3");
+            filter: url("#squiggly-3");
+  }
+  100% {
+    -webkit-filter: url("#squiggly-4");
+            filter: url("#squiggly-4");
+  }
 }
