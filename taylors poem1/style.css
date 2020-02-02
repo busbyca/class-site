@@ -1,0 +1,21 @@
+
+
+img {
+  height: 900px;
+}
+
+.fixed {
+  position: fixed;
+  background: white;
+  width: 400px;
+  height: 100px;
+  bottom: 20px;
+  left: 800px;
+  font-size: 8px;
+  font-family: monospace;
+  color: #d6805d;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}

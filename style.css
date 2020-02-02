@@ -1,0 +1,108 @@
+body {
+    background-image:url('butterfly.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:90%;
+    width:90%;
+}
+
+.bigboy {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  width: 100%;
+  height: 25%;
+}
+
+.bigcontainer {
+  display: flex;
+  height: 75%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  font-family: narly, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 120px;
+  height: 100%;
+  width: 500px;
+  padding-top: 270px;
+  color:
+}
+
+.list {
+  display: flex;
+  font-family: narly, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  height: 100%;
+  width: 200px;
+  padding-top: 60px;
+  padding-left: 70px;
+}
+
+ul {
+  list-style-type: none;
+  color: blue;
+}
+
+
+.test {
+  -webkit-animation: squiggly-anim 0.34s linear infinite;
+          animation: squiggly-anim 0.34s linear infinite;
+}
+
+@-webkit-keyframes squiggly-anim {
+  0% {
+    -webkit-filter: url("#squiggly-0");
+            filter: url("#squiggly-0");
+  }
+  25% {
+    -webkit-filter: url("#squiggly-1");
+            filter: url("#squiggly-1");
+  }
+  50% {
+    -webkit-filter: url("#squiggly-2");
+            filter: url("#squiggly-2");
+  }
+  75% {
+    -webkit-filter: url("#squiggly-3");
+            filter: url("#squiggly-3");
+  }
+  100% {
+    -webkit-filter: url("#squiggly-4");
+            filter: url("#squiggly-4");
+  }
+}
+@keyframes squiggly-anim {
+  0% {
+    -webkit-filter: url("#squiggly-0");
+            filter: url("#squiggly-0");
+  }
+  25% {
+    -webkit-filter: url("#squiggly-1");
+            filter: url("#squiggly-1");
+  }
+  50% {
+    -webkit-filter: url("#squiggly-2");
+            filter: url("#squiggly-2");
+  }
+  75% {
+    -webkit-filter: url("#squiggly-3");
+            filter: url("#squiggly-3");
+  }
+  100% {
+    -webkit-filter: url("#squiggly-4");
+            filter: url("#squiggly-4");
+  }
+}
