@@ -36,7 +36,7 @@ body {
   height: 100%;
   width: 500px;
   padding-top: 270px;
-  color:
+  color:#c45f05;
 }
 
 .list {
@@ -56,6 +56,9 @@ ul {
   color: blue;
 }
 
+a {
+  color: #c45f05;
+}
 
 .test {
   -webkit-animation: squiggly-anim 0.34s linear infinite;
