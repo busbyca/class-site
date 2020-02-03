@@ -1,18 +1,88 @@
+
+body {
+
+}
+
 .container {
   display: flex;
   width: 100%;
   height: 100%;
-  background: pink;
   align-items: center;
+  justify-content: center;
 }
+
 
 .text {
   display: flex;
-  width: 100%;
-  height: 670px;
-  font-size: 85px;
+  width: 47%;
+  height: 650px;
+  font-size: 40px;
   text-align: justify;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-top: 60px;
+  color: white;
+}
+
+.test {
+  -webkit-animation: squiggly-anim 0.34s linear infinite;
+          animation: squiggly-anim 0.34s linear infinite;
+}
+
+.test {
+  width: 100%;
+  outline: none;
+  line-height: 1;
+}
+.small {
+  font-size: 0.5em;
+}
+.smaller {
+  font-size: 0.4em;
+}
+p {
+  margin: 0;
+}
+@-webkit-keyframes squiggly-anim {
+  0% {
+    -webkit-filter: url("#squiggly-0");
+            filter: url("#squiggly-0");
+  }
+  25% {
+    -webkit-filter: url("#squiggly-1");
+            filter: url("#squiggly-1");
+  }
+  50% {
+    -webkit-filter: url("#squiggly-2");
+            filter: url("#squiggly-2");
+  }
+  75% {
+    -webkit-filter: url("#squiggly-3");
+            filter: url("#squiggly-3");
+  }
+  100% {
+    -webkit-filter: url("#squiggly-4");
+            filter: url("#squiggly-4");
+  }
+}
+@keyframes squiggly-anim {
+  0% {
+    -webkit-filter: url("#squiggly-0");
+            filter: url("#squiggly-0");
+  }
+  25% {
+    -webkit-filter: url("#squiggly-1");
+            filter: url("#squiggly-1");
+  }
+  50% {
+    -webkit-filter: url("#squiggly-2");
+            filter: url("#squiggly-2");
+  }
+  75% {
+    -webkit-filter: url("#squiggly-3");
+            filter: url("#squiggly-3");
+  }
+  100% {
+    -webkit-filter: url("#squiggly-4");
+            filter: url("#squiggly-4");
+  }
 }

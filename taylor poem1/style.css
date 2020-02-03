@@ -19,31 +19,14 @@ img {
 .fixed {
   display: flex;
   position: fixed;
-  height: 93%;
-  width: 50%;
-  font-size: 14px;
+  height: 65px;
+  width: 32%;
+  font-size: 9px;
   color: black;
-  writing-mode: vertical-rl;
-  top: 25px;
-  right: 20px;
-  bottom: 20px;
+  left: 250px;
+  top: 500px;
   text-align: justify;
   text-justify: auto;
-  font-family: louvette-text, serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.fixed2 {
-  display: flex;
-  position: fixed;
-  height: 96%;
-  font-size: 14px;
-  color: black;
-  top: 25px;
-  right: 120px;
-  bottom: 20px;
-  writing-mode: vertical-rl;
   font-family: louvette-text, serif;
   font-weight: 400;
   font-style: normal;

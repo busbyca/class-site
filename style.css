@@ -1,23 +1,8 @@
-body {
-    background-image:url('butterfly.gif');
-    background-size:100%;
-    background-repeat: repeat-y;
-    background-attachment: scroll;
-    height:90%;
-    width:90%;
-}
 
 .bigboy {
   display: flex;
   height: 100%;
   width: 100%;
-  flex-direction: column;
-}
-
-.top {
-  display: flex;
-  width: 100%;
-  height: 25%;
 }
 
 .bigcontainer {
@@ -25,39 +10,52 @@ body {
   height: 75%;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
 
 .title {
   display: flex;
-  font-family: narly, sans-serif;
-  font-weight: 700;
+  font-family: narly-outline,sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 120px;
-  height: 100%;
+  height: 50%;
   width: 500px;
-  padding-top: 270px;
   color:#c45f05;
+  background: blue;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .list {
   display: flex;
-  font-family: narly, sans-serif;
+  font-size: 12px;
+  height: 30px;
+  width: 1200px;
+  padding-left: 100px;
+  padding-top: 630px;
+  font-family: narly,sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 20px;
-  height: 100%;
-  width: 200px;
-  padding-top: 60px;
-  padding-left: 70px;
+  justify-content: space-between;
+  position: fixed;
 }
 
 ul {
   list-style-type: none;
-  color: blue;
 }
 
 a {
   color: #c45f05;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
 }
 
 .test {
