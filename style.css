@@ -14,18 +14,6 @@
   justify-content: center;
 }
 
-.title {
-  display: flex;
-  font-family: narly-outline,sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 120px;
-  height: 50%;
-  width: 500px;
-  color:#c45f05;
-  background: blue;
-}
-
 .items {
   display: flex;
   flex-direction: row;
@@ -35,10 +23,10 @@
 .list {
   display: flex;
   font-size: 12px;
-  height: 30px;
+  height: 15px;
   width: 1200px;
   padding-left: 100px;
-  padding-top: 630px;
+  padding-top: 620px;
   font-family: narly,sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -55,7 +43,6 @@ a {
   display: flex;
   justify-content: space-between;
   width: 100%;
-
 }
 
 .test {
