@@ -13,29 +13,32 @@
 
   <link rel='icon' href='clown1.png' type='image/x-icon'/ >
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.parallax {
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
 
-  background-image: url("holly.jpg");
-
-  min-height: 800px;
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-</style>
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  </style>
 
 </head>
 <body>
-
-  <div class="parallax"></div>
-
-<div style="height:100px;background-color:white;font-size:40px;color:#423026;">
-
-
+  <div class="container">
+  <img src="holly.jpg">
   <p>
   it is okay that people are terrible. mostly it pains me when i become terrible by being affected by their presence. in the same way that i am affected by people in other ways, i let their misery and awfulness seep into me too. their internal competitiveness, their desire to prove themselves as knowledgable makes me turn into a monster of individualism like them, mimicking their need for validation by trying to prove my own self. i really resent it.
   <br><br>
@@ -43,6 +46,7 @@
 <br><br>
 taylor toben
 </p>
+</div>
 </div>
 
 

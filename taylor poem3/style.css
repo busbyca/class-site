@@ -1,0 +1,21 @@
+
+
+.container {
+  display: flex;
+  width: 1360px;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 1000px;
+  height: 700px;
+}
+
+p {
+  display: flex;
+  width: 200px;
+  font-size: 12px;
+  padding-left: 20px;
+}
