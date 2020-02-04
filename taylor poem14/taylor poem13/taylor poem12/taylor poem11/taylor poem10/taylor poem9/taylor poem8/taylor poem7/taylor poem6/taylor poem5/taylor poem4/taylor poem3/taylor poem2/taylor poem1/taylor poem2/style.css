@@ -1,0 +1,162 @@
+
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.thumbnail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.image {
+  display: flex;
+  width: 100%;
+}
+
+
+.fixed {
+  position: fixed;
+  width: 400px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  color: black;
+  top: 50px;
+  left: 900px;
+  font-family: louvette-text, serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: right;
+}
+
+.fixed2 {
+  position: fixed;
+  width: 330px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+  color: black;
+  top: 620px;
+  left: 40px;
+  font-family: louvette-text, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.test {
+  -webkit-animation: squiggly-anim 0.34s linear infinite;
+          animation: squiggly-anim 0.34s linear infinite;
+}
+
+.test {
+  width: 100%;
+  outline: none;
+  line-height: 1;
+}
+.small {
+  font-size: 0.5em;
+}
+.smaller {
+  font-size: 0.4em;
+}
+p {
+  margin: 0;
+}
+@-webkit-keyframes squiggly-anim {
+  0% {
+    -webkit-filter: url("#squiggly-0");
+            filter: url("#squiggly-0");
+  }
+  25% {
+    -webkit-filter: url("#squiggly-1");
+            filter: url("#squiggly-1");
+  }
+  50% {
+    -webkit-filter: url("#squiggly-2");
+            filter: url("#squiggly-2");
+  }
+  75% {
+    -webkit-filter: url("#squiggly-3");
+            filter: url("#squiggly-3");
+  }
+  100% {
+    -webkit-filter: url("#squiggly-4");
+            filter: url("#squiggly-4");
+  }
+}
+@keyframes squiggly-anim {
+  0% {
+    -webkit-filter: url("#squiggly-0");
+            filter: url("#squiggly-0");
+  }
+  25% {
+    -webkit-filter: url("#squiggly-1");
+            filter: url("#squiggly-1");
+  }
+  50% {
+    -webkit-filter: url("#squiggly-2");
+            filter: url("#squiggly-2");
+  }
+  75% {
+    -webkit-filter: url("#squiggly-3");
+            filter: url("#squiggly-3");
+  }
+  100% {
+    -webkit-filter: url("#squiggly-4");
+            filter: url("#squiggly-4");
+  }
+}
+
+
+.hover-img {
+  display: none;
+  transition: 4s ease;
+}
+
+.hoverme:hover .hover-img {
+  display: block;
+  position: fixed;
+  top: 40%;
+  left: 20%;
+}
+
+.btn {
+  padding: 10px;
+  background: black;
+  position: fixed;
+  transition:background 1s ease,
+  transform 1s ease;
+}
+
+.btn:hover {
+  background: #db6947;
+  transform: scaleY(3);
+}
+
+.next-btn {
+  top: 40%;
+  right: 0;
+  transform: translateY(-30%);
+}
+
+.prev-btn {
+  top: 40%;
+  left: 0;
+  transform: translateY(-40%);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: louvette-text, serif;
+  font-weight: 400;
+  font-style: normal;
+}

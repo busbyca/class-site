@@ -1,0 +1,44 @@
+
+.container {
+  display: flex;
+  width: 1360px;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumbnail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 600px;
+}
+
+.image {
+  display: flex;
+  width: 600px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  display: flex;
+  width: 540px;
+  height: 340px;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  width: 300px;
+  height: 100px;
+  font-size: 12px;
+  text-align: justify;
+  color: black;
+  font-family: louvette-text, serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 20px;
+}

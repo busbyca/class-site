@@ -1,0 +1,31 @@
+
+
+.container {
+  display: flex;
+  width: 1360px;
+  height: 100%;
+  align-items: center;
+}
+
+img {
+  width: 1360px;
+  height: 100%;
+}
+
+.fixed {
+  display: flex;
+  position: fixed;
+}
+
+p {
+  display: flex;
+  width: 450px;
+  font-size: 11px;
+  padding-left: 800px;
+  padding-top: 200px;
+  text-align: right;
+  color: white;
+  font-family: louvette-text, serif;
+  font-weight: 400;
+  font-style: normal;
+}
