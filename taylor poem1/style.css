@@ -44,31 +44,62 @@ img {
   left: 20%;
 }
 
-.btn {
-  padding: 10px;
-  background: black;
-  position: fixed;
-  transition:background 1s ease,
-  transform 1s ease;
-}
-
-
-.next-btn {
-  top: 40%;
-  right: 0;
-  transform: translateY(-30%);
-}
-
-.prev-btn {
-  top: 40%;
-  left: 0;
-  transform: translateY(-40%);
-}
 
 a {
   text-decoration: none;
-  color: white;
-  font-family: louvette-text, serif;
-  font-weight: 400;
+  color: #851a06;
+  font-family: narly,sans-serif;
+  font-weight: 700;
   font-style: normal;
+  font-size: 14px;
+}
+
+
+.dropbtn {
+  color: #851a06;
+  font-family: narly,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  border: none;
+  font-size: 25px;
+  background: none;
+}
+
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  bottom: 33px;
+  left: 20px;
+  z-index: 1;
+}
+
+.dropup-content a:hover {background-color: #db6a48; width: 40px;}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  background-color:none ;
+}
+
+.runner {
+  height: 30px;
+  width: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  animation: run 20s infinite linear;
+}
+
+@keyframes run {
+  0% {transform: translateX(-100px);}
+  100% {transform: translateX(100vw);}
 }
